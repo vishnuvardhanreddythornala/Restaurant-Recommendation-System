@@ -20,7 +20,7 @@ This project simplifies that process by providing personalized restaurant recomm
 Built with machine learning techniques (TF-IDF and cosine similarity) and deployed using Streamlit.
 
 ## 🎥 Demo
-> [Coming Soon]
+> [https://restorec.streamlit.app/]
 
 ## ✨ Features
 - Personalized recommendations based on user preferences.
