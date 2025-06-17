@@ -4,7 +4,7 @@ from sklearn.metrics.pairwise import linear_kernel
 import streamlit as st
 
 # Load the dataset
-df = pd.read_csv("D:\RestaurantRec\zomato.csv")
+df = pd.read_csv("zomato.csv")
 
 # Combine relevant features into a single text column for TF-IDF vectorization
 df['combined_features'] = df['restaurant_type'] + ' ' + df['cuisine_type'] + ' ' + df['area']
