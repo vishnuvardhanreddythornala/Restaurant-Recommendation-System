@@ -220,3 +220,6 @@ if st.button("🎲 Surprise Me!"):
             st.markdown(f"[🧭 Navigate Now]({maps_url})", unsafe_allow_html=True)
         else:
             st.info("No matching restaurants found for your location. Try changing your selections.")
+
+
+st.markdown('<div class="footer">Developed by <strong>T vishnu vardhan reddy</strong> — Restaurant Recommendation System</div>', unsafe_allow_html=True)
